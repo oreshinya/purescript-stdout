@@ -1,0 +1,36 @@
+{
+  "name": "purescript-stdout",
+  "license": "MIT",
+  "homepage": "https://github.com/oreshinya/purescript-stdout",
+  "authors": [
+    "Shinya Takahashi <s.takahashi313@gmail.com>"
+  ],
+  "description": "PureScript stdout logger",
+  "keywords": [
+    "purescript",
+    "node",
+    "logger"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oreshinya/purescript-stdout.git"
+  },
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-node-buffer": "^3.0.0",
+    "purescript-node-process": "^4.0.0",
+    "purescript-node-streams": "^3.1.0",
+    "purescript-eff": "^3.1.0",
+    "purescript-console": "^3.0.0",
+    "purescript-exceptions": "^3.0.0",
+    "purescript-prelude": "^3.0.0"
+  }
+}
